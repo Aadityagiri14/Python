@@ -1,6 +1,8 @@
 from art import clear, logo
 import random
 
+Players_cards=[]
+Computers_cards=[]
 card=[11,2,3,4,5,6,7,8,9,10,10,10,10]
 
 def display(users, comp,flag):
@@ -44,8 +46,6 @@ def bj():
         clear()
         print(logo)
         flag=1
-        Players_cards=[]
-        Computers_cards=[]
         
         for i in range(2):
             Players_cards.append(cards())
